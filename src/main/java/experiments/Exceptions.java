@@ -23,7 +23,7 @@ public class Exceptions {
 
     }
 
-    private static void pause() {
+    public static void pause() {
         try {
             checkedException();
         } catch (InterruptedException e) {
