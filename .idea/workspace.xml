@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb7e077-2f56-4445-8f06-81e3545d7ad4" name="Changes" comment="created Exceptions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/CssSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="8eb7e077-2f56-4445-8f06-81e3545d7ad4" name="Changes" comment="created Class CssSelector">
+      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/XpathSelectors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/experiments/Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiments/Exceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/experiments/CssSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiments/CssSelectors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +24,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="QA_46Demo" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -59,24 +52,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build QA_46Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.QA_46Demo [:Exceptions.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.CssSelectors.selectorsHomePage.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build QA_46Demo.executor": "Run",
+    "Gradle.QA_46Demo [:Exceptions.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CssSelectors.executor": "Run",
+    "TestNG.CssSelectors.selectorElementPage.executor": "Run",
+    "TestNG.CssSelectors.selectorRadioButtonPage.executor": "Run",
+    "TestNG.CssSelectors.selectorsHomePage.executor": "Run",
+    "TestNG.XpathSelectors.selectorsTextBox.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.CssSelectors.selectorsHomePage">
-    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="experiments.Exceptions" />
+}]]></component>
+  <component name="RunManager" selected="TestNG.XpathSelectors.selectorsTextBox">
+    <configuration name="CssSelectors" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA_46Demo.main" />
       <extension name="coverage">
         <pattern>
@@ -84,6 +80,47 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.CssSelectors" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CssSelectors.selectorElementPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_46Demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.CssSelectors" />
+      <option name="METHOD_NAME" value="selectorElementPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CssSelectors.selectorRadioButtonPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_46Demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.CssSelectors" />
+      <option name="METHOD_NAME" value="selectorRadioButtonPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,10 +143,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XpathSelectors.selectorsTextBox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA_46Demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.XpathSelectors" />
+      <option name="METHOD_NAME" value="selectorsTextBox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.XpathSelectors.selectorsTextBox" />
+        <item itemvalue="TestNG.CssSelectors.selectorRadioButtonPage" />
         <item itemvalue="TestNG.CssSelectors.selectorsHomePage" />
-        <item itemvalue="Application.Exceptions" />
+        <item itemvalue="TestNG.CssSelectors.selectorElementPage" />
+        <item itemvalue="TestNG.CssSelectors" />
       </list>
     </recent_temporary>
   </component>
@@ -130,11 +188,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740595174622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created Class CssSelector">
+      <option name="closed" value="true" />
+      <created>1740941337232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740941337232</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="created Exceptions" />
+    <MESSAGE value="created Class CssSelector" />
+    <option name="LAST_COMMIT_MESSAGE" value="created Class CssSelector" />
   </component>
 </project>
